@@ -22,7 +22,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(108,84,241,1) 1%, rgba(204,116,255,1) 50%, rgba(185,236,245,1) 100%);
+    background: rgba(255, 255, 255, 0.2);
     width: 400px;
     margin: 2rem auto 0 auto;
     padding: 2rem 0 2rem 0;
@@ -79,6 +79,5 @@ button:active {
 
 /* content */
 #result {
-    background-color: white;
     margin-top: 2rem;
 }
