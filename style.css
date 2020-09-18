@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* variables */
+:root {
+    --main: #3498db;
+}
+/* main */
+body {
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(90deg, rgba(134,131,184,1) 0%, rgba(127,116,255,1) 50%, rgba(185,211,245,1) 100%);
+}
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(108,84,241,1) 1%, rgba(204,116,255,1) 50%, rgba(185,236,245,1) 100%);
+    width: 400px;
+    margin: 2rem auto 0 auto;
+    padding: 2rem 0 2rem 0;
+    border-radius: 5px;
+}
+input {
+    width: 250px;
+    height: 45px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    margin: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    text-align: center;
+}
+#quantity {
+    width: 195px;
+    margin: 0;
+    margin-right: 0.5rem;
+}
+input::placeholder {
+    font-size: 0.5;
+    opacity: 0.5;
+}
+input:focus,
+select:focus {
+    outline: none;
+}
+
+select {
+    height: 45px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    cursor: pointer;
+}
+button {
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+button:focus {
+    outline: none;
+}
+button:hover {
+    background-color: var(--main);
+    color: white;
+}
+button:active {
+    background-color: #5eabdf;
+}
+
+/* content */
+#result {
+    background-color: white;
+    margin-top: 2rem;
+}
